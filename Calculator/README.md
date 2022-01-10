@@ -22,3 +22,6 @@ Reference to test the format of regex: https://regex101.com/r/fZ9nA9/1
 ### Assumptions and Limitations
 1. The input is in the form of string or integer.
 2. Operations cannot be performed on numbers of type double. Ex. 1.2+2.2 is invalid.
+
+### Execution
+![Output](https://user-images.githubusercontent.com/67778546/148777845-72558bac-51d5-474d-a23d-8d16267b7a30.gif)
