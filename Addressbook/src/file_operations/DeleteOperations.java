@@ -23,7 +23,7 @@ public class DeleteOperations{
 		System.out.print("\n>");
 		int ch_del=sc.nextInt();
 		
-		File delete_record=new File("C:/Users/Kapture/eclipse-workspace/Addressbook/address_books/"+list_of_files[ch_del-1]);
+		File delete_record=new File("Path"+list_of_files[ch_del-1]);
 		Scanner dataReader;
 		
 		//creating HashSet to store records
@@ -50,7 +50,7 @@ public class DeleteOperations{
 			String[] Data = hs.toArray(new String[hs.size()]);
 			
 			//duplicate file to which records are written
-			FileWriter myWriter = new FileWriter("C:/Users/Kapture/eclipse-workspace/Addressbook/address_books/"+"delete_dup.txt");
+			FileWriter myWriter = new FileWriter("Path"+"delete_dup.txt");
 			
 			dataReader = new Scanner(delete_record);
 			while(dataReader.hasNextLine()) {
@@ -68,7 +68,7 @@ public class DeleteOperations{
 			
 			//renaming duplicate file to the name of the address book
 			//this file contains all the records from the address book excluding the one to be deleted
-			Path source = Paths.get("C:/Users/Kapture/eclipse-workspace/Addressbook/address_books/"+"delete_dup.txt");
+			Path source = Paths.get("Path"+"delete_dup.txt");
 			String new_name=delete_record.getName();
 			
 			//deleting existing address book to avoid duplicates
@@ -94,7 +94,7 @@ public class DeleteOperations{
 		list_of_files=AddOperations.displayAddBooks();
 		int ch=sc.nextInt();
 		
-		File delete_adbook=new File("C:/Users/Kapture/eclipse-workspace/Addressbook/address_books/"+list_of_files[ch-1]);
+		File delete_adbook=new File("Path"+list_of_files[ch-1]);
 		
 		
 		if(delete_adbook.exists()) { //checking for existence of file
