@@ -36,7 +36,7 @@ public class AddRecord{
 		
 		System.out.print("Enter Contact number (without country code): \n>");
 		phone=sc.nextLine();
-		if(phone.length()!=10) {
+		if(!Pattern.matches("\s*[0-9]{10}",phone) {
 			System.out.print("Invalid Contact Number! \nEnter the Contact number to 10 digits only.\n>");
 			phone=sc.nextLine();
 		}
