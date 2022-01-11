@@ -1,4 +1,9 @@
 ## Description
+
+### Requirements
+1. Java 8
+2. Eclipse IDE (any IDE is preferrable with appropriate configuration)
+
 ### Operations
 1. Add records to existing addressbooks
 2. Create new addressbooks
