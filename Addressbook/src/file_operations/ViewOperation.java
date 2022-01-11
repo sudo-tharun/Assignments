@@ -18,7 +18,7 @@ public class ViewOperation{
 			System.out.println("Invalid Choice!");
 			return;
 		}
-		File view_record=new File("C:/Users/Kapture/eclipse-workspace/Addressbook/address_books/"+list_of_files[ch_view-1]);
+		File view_record=new File("Path"+list_of_files[ch_view-1]);
 		System.out.println("\r\nRecords from "+view_record.getName()+":");
 		System.out.println("Format: First Name,Last Name,Contact,Email,Address");
 		Scanner dataReader;
