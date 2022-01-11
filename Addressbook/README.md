@@ -28,3 +28,4 @@
 
 ### Limitations
 1. Duplicate entries are allowed.
+2. Only one entry is allowed at a time.
