@@ -1,3 +1,0 @@
-Ravi,Kanth,1234567890,test@hotmail.com,Hyderabad.
-Shirish,Saxena,8511114782,abc123@email.com,Gwalior.
-Yash,T,9874561230,123xyz@outlook.com,Nagpur.
