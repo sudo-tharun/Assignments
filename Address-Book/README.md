@@ -6,26 +6,25 @@
 
 ### Operations
 1. Add records to existing addressbooks
-2. Create new addressbooks
-3. Delete existing records
-4. Delete addressbooks
-5. View records of addressbooks
+3. Create new addressbooks
+4. Delete existing records
+5. Delete addressbooks
+6. View records of addressbooks
+7. Modify existing records
+8. Move records across addressbooks
 
 ### Further work
-1. Modify existing records
-2. Move records across addressbooks
-3. Search with addressbooks (based on different parameters)
-4. Sorting records (based on different parameters
-5. Restricting duplicate records
-6. Deleting with more specific entries (Ex. by first name)
+1. Search with addressbooks (based on different parameters)
+2. Sorting records (based on different parameters
+3. Deleting with more specific entries (Ex. by first name)
 
 ### Used Concepts
 1. File Operations
-2. Hashset
+2. ArrayList
 3. Arrays
 4. Input/Output
 5. Regular Expressions
 
 ### Limitations
-1. Duplicate entries are allowed.
-2. Only one entry is allowed at a time.
+1. Duplicate entries are allowed (except for email).
+2. Only one entry/operation is allowed at a time.
