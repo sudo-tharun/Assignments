@@ -1,2 +1,0 @@
-Tharun,Buddigina,1234567890,abc@gmail.com,Bangalore.
-Rock,Johnson,4578999998,xyz@hotmail.com,Pune.
