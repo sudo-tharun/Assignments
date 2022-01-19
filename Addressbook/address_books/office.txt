@@ -1,0 +1,3 @@
+tharun,buddigina,1234567890,abc@gmail.com,Bangalore
+rock,johnson,8478885788,xyz@homail.com,Chennai
+rock,gabriel,7877777777,sdf@gmail.com,Pune
