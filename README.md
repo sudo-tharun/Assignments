@@ -7,3 +7,4 @@ This is a folder that contains different problem statements.
 2. Blackjack Game
 3. Calculator
 4. Addressbook
+5. Addressbook using Springboot and Redis
